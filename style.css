@@ -1,0 +1,78 @@
+/* Styles communs à toutes les vues */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+section {
+  border: 1px solid black;
+  margin-bottom: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+h2 {
+  background-color: #333;
+  color: white;
+  font-size: 24px;
+  font-weight: normal;
+  padding: 10px 20px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+}
+
+p {
+  padding: 20px;
+}
+
+/* Styles spécifiques aux vues de bureau */
+.desktop {
+  float: left;
+  width: 33.33%;
+}
+
+@media (max-width: 991px) {
+  /* Styles spécifiques à la vue tablette */
+  .desktop {
+    width: 50%;
+  }
+
+  .tablet {
+    float: left;
+    width: 50%;
+  }
+
+  .tablet:last-child {
+    clear: both;
+  }
+
+  .tablet:nth-child(3) {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  /* Styles spécifiques à la vue mobile */
+  .desktop, .tablet {
+    width: 100%;
+    float: none;
+  }
+}

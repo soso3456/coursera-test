@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exemple de mise en page adaptative</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Titre de la page</h1>
+  </header>
+  <section class="desktop">
+    <h2>Poulet</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend est vitae ultrices molestie.</p>
+  </section>
+  <section class="desktop">
+    <h2>Bœuf</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend est vitae ultrices molestie.</p>
+  </section>
+  <section class="desktop">
+    <h2>Sushis</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend est vitae ultrices molestie.</p>
+  </section>
+</body>
+</html>
